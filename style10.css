@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container-2 {
+    display: flex;
+    background-color: hsl(30, 38%, 92%);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    min-width: 620px;
+    min-height: 470px;
+}
+
+.details { 
+    width: 300px;
+    height: 450px;
+    background-color: #ffffff;
+    border-radius: 0 10px 10px 0;
+    padding: 28px 32px 0 32px;
+}
+
+.details h1 {
+    font-family: 'Fraunces', serif;
+    line-height: 32px;
+    color: hsl(212, 21%, 14%);
+    padding: 17px 0 23px 0;
+}
+
+.details p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 23px;
+}
+
+#title {
+    letter-spacing: 5px;
+    font-size: 12px;
+}
+
+.prices {
+    display: flex;
+    justify-content: flex-start;
+    height: 92px;
+    align-items: center;
+}
+
+picture>img {
+    width: 300px;
+    border-radius: 10px 0 0 10px;
+    display: block;
+}
+
+#new-price {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    margin-right: 20px;
+}
+
+#old-price {
+    text-decoration: line-through;
+}
+
+.add-to-cart {
+    background-color: hsl(158, 36%, 37%);
+    width: 236px;
+    height: 48px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-to-cart:hover {
+    background-color: #184131;
+}
+
+.add-to-cart>a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.add-to-cart>img {
+    width: 15px;
+}
+
+@media screen and (min-width: 1440px) and (min-height: 800px) {
+    body {
+        background-color: hsl(0, 0%, 94%);
+    }
+
+    .container-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 1;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .container-2 {
+        width: 1300px;
+        max-height: 800px;
+        box-shadow: 0 4px 20px 5px hsla(0, 0%, 0%, 0.1);
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container-2 {
+        flex-direction: column;
+        min-width: 100%;
+        min-height: 667px;
+        flex-shrink: 1;
+    }
+
+    picture>img {
+        border-radius: 10px 10px 0 0;
+        width: 345px;  
+    }
+
+    .details { 
+        width: 345px;
+        height: 370px;
+        border-radius: 0 0 10px 10px;
+        padding: 20px 26px 0 24px;
+    }
+
+    .details h1 {
+        padding: 15px 0 20px 0;
+    }
+
+    .prices {
+        height: 75px;
+    }
+
+    .add-to-cart {
+        width: 295px;
+    }
+}
