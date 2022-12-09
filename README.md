@@ -106,7 +106,7 @@ picture>img {
 
 ### Continued development
 
-I'm still in the beginning of my learning journey so i still have a lot to learn inn html and css and i need to start learning javascript.
+I'm still in the beginning of my learning journey so i still have a lot to learn in html and css and i need to start learning javascript.
 
 
 ### Useful resources
