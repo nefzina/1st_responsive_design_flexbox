@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/nefzina/Frontend-Mentor-designs/blob/main/gabrielle_perfume.html] 
-and [https://github.com/nefzina/Frontend-Mentor-designs/blob/main/style10.css]
+- Solution URL: [https://github.com/nefzina/1st_responsive_design_flexbox.git]
+- Live Site URL: [https://nefzina.github.io/1st_responsive_design_flexbox/index.html]
 
 ## My process
 
